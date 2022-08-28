@@ -36,10 +36,10 @@ class Home extends React.Component<props, state> {
           </span>
         </div>
         <div className="socialLinks">
-          <a target="_blank" rel="noreferrer" href="mailto:me@apex.me" className="socialLink"><Mail id="mail" /></a>
-          <a target="_blank" rel="noreferrer" href="https://discord.com/users/397869855749177345" className="socialLink"><Discord id="discord" /></a>
-          <a target="_blank" rel="noreferrer" href="https://twitter.com/apex2504" className="socialLink"><Twitter id="twitter" /></a>
-          <a target="_blank" rel="noreferrer" href="https://github.com/apex2504" className="socialLink"><Github id="github" /></a>
+          <a target="_blank" rel="noreferrer" href="mailto:me@apex.me" className="socialLink" id="mail"><Mail /></a>
+          <a target="_blank" rel="noreferrer" href="https://discord.com/users/397869855749177345" className="socialLink" id="discord"><Discord /></a>
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/apex2504" className="socialLink" id="twitter"><Twitter /></a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/apex2504" className="socialLink" id="github"><Github /></a>
         </div>
         <a className="takaLink" href="https://taka.moe/">
           <img alt="Taka Logo" className="takaIcon" src={takaLogo} />
