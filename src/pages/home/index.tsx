@@ -32,11 +32,11 @@ class Home extends React.Component<props, state> {
         <div className="textContainer">
           <span className="greeting">Hi, I'm apex</span>
           <span className="description">
-            Occasional code writer &bull; {this.state.age} &bull; he/him
+            Tester in production &bull; {this.state.age} &bull; he/him
           </span>
         </div>
         <div className="socialLinks">
-          <a target="_blank" rel="noreferrer" href="mailto:me@apex.me" className="socialLink" id="mail"><Mail /></a>
+          <a target="_blank" rel="noreferrer" href="mailto:me@apex.moe" className="socialLink" id="mail"><Mail /></a>
           <a target="_blank" rel="noreferrer" href="https://discord.com/users/397869855749177345" className="socialLink" id="discord"><Discord /></a>
           <a target="_blank" rel="noreferrer" href="https://twitter.com/apex2504" className="socialLink" id="twitter"><Twitter /></a>
           <a target="_blank" rel="noreferrer" href="https://github.com/apex2504" className="socialLink" id="github"><Github /></a>

@@ -52,9 +52,15 @@
       box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.8);
       transition: 0.2s;
 
+      svg {
+        width: 1.5rem;
+        height: 1.5rem; 
+      }
+
       &:hover {
-        width: 1.75rem;
-        height: 1.75rem;
+        border-radius: 30%;
+        width: 2.0rem;
+        height: 2.0rem;
 
         &#discord {
           background-color: var(--discord);
@@ -84,7 +90,7 @@
           background-color: var(--github);
           svg {
             transition: 0.5s;
-            fill: rgb(127, 127, 127) !important;
+            fill: rgb(64, 64, 64) !important;
           }
         }
       }
@@ -118,20 +124,21 @@
     color: white;
     font-weight: bold;
     background-color: var(--secondary);
-    padding: 7px 10px;
+    padding: 7px 18px 7px 15px;
     border-radius: 25px;
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.8);
     transition: 0.5s;
 
     &:hover {
-      padding: 9px 12px;
+      border-radius: 17px;
+      padding: 11px 22px 11px 19px;
       background-color: var(--secondary-hover);
     }
 
     .takaIcon {
-      margin-right: 5px;
-      width: 2rem;
-      height: 2rem;
+      margin-right: 8px;
+      width: 1.75rem;
+      height: 1.75rem;
     }
   }
 }
