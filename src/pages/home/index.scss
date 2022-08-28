@@ -1,0 +1,100 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--primary);
+
+  .apexAvatar {
+    margin-bottom: 1.5rem;
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .textContainer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+
+    .greeting {
+      font-size: 2.5rem;
+      font-weight: bolder;
+      color: var(--text-primary);
+    }
+
+    .description {
+      font-weight: bold;
+    }
+  }
+
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 15px;
+    a {
+      border-radius: 100%;
+      width: 1.5rem;
+      height: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--secondary);
+      padding: 10px;
+      margin: 5px 10px;
+      box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.8);
+      transition: 0.5s;
+
+      &:hover {
+        background-color: var(--secondary-hover);
+      }
+    }
+
+    #discord {
+      fill: var(--discord) !important;
+    }
+
+    #twitter {
+      fill: var(--twitter) !important;
+    }
+
+    #mail {
+      fill: var(--mail) !important;
+    }
+
+    #github {
+      fill: var(--github) !important;
+    }
+  }
+
+  .takaLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: var(--secondary);
+    padding: 7px 10px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.8);
+
+    transition: 0.5s;
+
+    &:hover {
+      background-color: var(--secondary-hover);
+    }
+
+    .takaIcon {
+      margin-right: 5px;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
