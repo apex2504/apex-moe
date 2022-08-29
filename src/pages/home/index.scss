@@ -13,7 +13,7 @@
     border-radius: 100%;
     width: 12rem;
     height: 12rem;
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.4);
   }
 
   .textContainer {
@@ -41,16 +41,16 @@
     margin: 15px;
     a {
       border-radius: 100%;
-      width: 1.5rem;
-      height: 1.5rem;
+      width: 2rem;
+      height: 2rem;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: var(--secondary);
       padding: 10px;
-      margin: 5px 10px;
-      box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.8);
-      transition: 0.2s;
+      margin: 5px 8px;
+      box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.6);
+      transition: 0.2s ease-out;
 
       svg {
         width: 1.5rem;
@@ -58,15 +58,16 @@
       }
 
       &:hover {
-        border-radius: 30%;
-        width: 2.0rem;
-        height: 2.0rem;
-        margin: 0px 0.38rem;
+        border-radius: 1.0rem;
+        width: 2.3rem;
+        height: 2.3rem;
+        margin: 0px 15px;
+        transition: 0.3s ease-out;
 
         &#discord {
           background-color: var(--discord);
           svg {
-            transition: 0.5s;
+            transition: 0.3s;
             fill: white !important;
           }
         }
@@ -74,7 +75,7 @@
         &#twitter {
           background-color: var(--twitter);
           svg {
-            transition: 0.5s;
+            transition: 0.3s;
             fill: white !important;
           }
         }
@@ -82,7 +83,7 @@
         &#mail {
           background-color: var(--mail);
           svg {
-            transition: 0.5s;
+            transition: 0.3s;
             fill: white !important;
           }
         }
@@ -90,7 +91,7 @@
         &#github {
           background-color: var(--github);
           svg {
-            transition: 0.5s;
+            transition: 0.3s;
             fill: rgb(64, 64, 64) !important;
           }
         }
@@ -98,22 +99,22 @@
     }
 
     #discord {
-      transition: 0.5s;
+      transition: 0.3s;
       fill: var(--discord) !important;
     }
 
     #twitter {
-      transition: 0.5s;
+      transition: 0.3s;
       fill: var(--twitter) !important;
     }
 
     #mail {
-      transition: 0.5s;
+      transition: 0.3s;
       fill: var(--mail) !important;
     }
 
     #github {
-      transition: 0.5s;
+      transition: 0.3s;
       fill: white !important;
     }
   }
@@ -125,16 +126,15 @@
     color: white;
     font-weight: bold;
     background-color: var(--secondary);
-    padding: 7px 18px 7px 15px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.8);
-    transition: 0.5s;
+    padding: 11px 77px 11px 73px;
+    border-radius: 2.0rem;
+    box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease-out;
 
     &:hover {
-      border-radius: 17px;
-      padding: 11px 22px 11px 19px;
+      border-radius: 1.0rem;
+      padding: 11px 85px 11px 81px;
       background-color: var(--secondary-hover);
-      margin: -4px;
     }
 
     .takaIcon {
