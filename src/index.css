@@ -30,9 +30,31 @@ Modify (Hover): #88490e
   --text-secondary: #FFFFFF
 }
 
-html {
-  font-size: 100%;
+@media (min-width:320px)  { 
+  html {
+    font-size: 150%;
+  }
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 }
+@media (min-width:600px)  {
+  html {
+    font-size: 150%;
+  }
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+}
+@media (min-width:801px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  html {
+    font-size: 150%;
+  }
+}
+@media (min-width:1025px) { 
+  /* big landscape tablets, laptops, and desktops */ 
+  html {
+    font-size: 100%;
+  }
+}
+
 
 @font-face {
   font-family: 'Product Sans Bold';
